@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/*HEADER*/
+header {
+    background-color: white;
+    height: 130px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+
+/*MAIN*/
+main {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+
+
+/*NEWS*/
+.news {
+    max-width: 200%;
+}
+
+.news img {
+    height: 700px;
+    width: 100%;
+}
+
+.news h2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.news p {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.big {
+    background-color: white;
+    margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+.big img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.medium {
+    background-color: white;
+    margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+.small {
+    background-color: white;
+    margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div2 img {
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+}
+
+.div3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+}
+
+.div3 img {
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+/*SIDEBAR*/
+.sidebar {
+    width: 400px;
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+}
+
+.image {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.desc {
+    font-size: 1rem;
+}
+
+.india {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.india img {
+    width: 100%;
+}
+
+.cricket {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.cricket img {
+    width: 100%;
+}
+
+.Education {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.Science {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.Bollywood {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+
+/*FOOTER*/
+footer {
+    height: 230px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h5 {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
